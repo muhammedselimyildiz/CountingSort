@@ -1,2 +1,2 @@
 # CountingSort
-Bu proje, girilen tamsayı değerlerini büyükten küçüğe sıralayan bir sıralama algoritmasıdır. 
+Bu proje, girilen tamsayı değerlerini küçükten büyüğe sıralayan bir sıralama algoritmasıdır. 
