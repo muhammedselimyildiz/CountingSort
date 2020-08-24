@@ -31,6 +31,12 @@ namespace CountingSort
             numbers[4] = Convert.ToInt32(textBox5.Text);
             numbers[5] = Convert.ToInt32(textBox6.Text);
 
+            if(textBox1.Text== null || textBox2.Text == null || textBox3.Text == null
+               || textBox4.Text == null || textBox5.Text == null || textBox6.Text == null)
+            {
+                MessageBox.Show("Please enter value!");
+            }
+
 
             int[] sortedArray = new int[6];
 
@@ -77,6 +83,21 @@ namespace CountingSort
 
         }
 
-        
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = null;
+            textBox2.Text = null;
+            textBox3.Text = null;
+            textBox4.Text = null;
+            textBox5.Text = null;
+            textBox6.Text = null;
+            label4.Text = null;
+            label5.Text = null;
+            label6.Text = null;
+            label7.Text = null;
+            label8.Text = null;
+            label9.Text = null;
+
+        }
     }
 }
