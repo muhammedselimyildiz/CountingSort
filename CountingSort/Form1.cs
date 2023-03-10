@@ -23,7 +23,7 @@ namespace CountingSort
         {
 
             int[] numbers = new int[6];
-             
+             //for kullanabilirsin
             numbers[0] = Convert.ToInt32(textBox1.Text);
             numbers[1] = Convert.ToInt32(textBox2.Text);
             numbers[2] = Convert.ToInt32(textBox3.Text);
